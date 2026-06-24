@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temp files
+~$*
+*.tmp
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+.env.local
+
+# Model files - track important models
+# models/*.pkl
+
+# Large data files (>50MB) - uncomment if needed
+# data/processed/*.csv
+
+# Processed data - uncomment to exclude (regeneratable from raw)
+# data/processed/*.xlsx

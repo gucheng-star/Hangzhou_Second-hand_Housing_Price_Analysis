@@ -1,0 +1,20 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python
+*.py text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Data files
+*.csv text eol=lf
+*.xlsx binary
+*.png binary
+*.pkl binary
+
+# Config
+.gitignore text eol=lf
+.gitattributes text eol=lf
+requirements.txt text eol=lf
